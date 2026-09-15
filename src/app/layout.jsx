@@ -1,20 +1,35 @@
 import Header from "@/components/Header";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "BrightSmile Dental - Modern Dental Care",
+  title: "Anshchildcare | Dr. Kamesh Patel | Pediatrician & Neonatologist",
   description:
-    "Experience exceptional dental care with our team of expert dentists. Comprehensive, gentle treatment in a modern, comfortable environment.",
+    "One-stop child healthcare solutions with expert pediatric and neonatal care, vaccination support, OPD consultations, and compassionate family-centered treatment.",
+  keywords: [
+    "Anshchildcare",
+    "Dr. Kamesh Patel",
+    "pediatrician",
+    "neonatologist",
+    "pediatric OPD",
+    "neonatal care",
+    "child healthcare",
+    "vaccination support",
+  ],
+  openGraph: {
+    title: "Anshchildcare | Dr. Kamesh Patel",
+    description: "Pediatric and neonatal care for newborns, children, and families.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={dmSans.className}>
         <Header />
         {children}
         <Footer />

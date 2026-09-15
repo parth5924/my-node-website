@@ -72,6 +72,19 @@
   }
 }
 
+/* Anshchildcare palette: warm coral, aqua, and soft cream inspired by the brand profile. */
+.bg-sky-500 { background-color: #e86f61 !important; }
+.hover\:bg-sky-600:hover { background-color: #d85d52 !important; }
+.text-sky-500 { color: #df6659 !important; }
+.border-sky-500 { border-color: #df6659 !important; }
+.bg-sky-50 { background-color: #fff7f4 !important; }
+.bg-sky-100 { background-color: #ffe7e1 !important; }
+.text-sky-700 { color: #b94c43 !important; }
+.from-sky-500 { --tw-gradient-from: #e86f61 var(--tw-gradient-from-position) !important; }
+.to-cyan-500 { --tw-gradient-to: #35b9bd var(--tw-gradient-to-position) !important; }
+.from-sky-50 { --tw-gradient-from: #fff7f4 var(--tw-gradient-from-position) !important; }
+.to-cyan-50 { --tw-gradient-to: #e8fbfa var(--tw-gradient-to-position) !important; }
+
 @layer base {
   * {
     @apply border-border;

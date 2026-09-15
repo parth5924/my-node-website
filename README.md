@@ -1,17 +1,16 @@
-# BrightSmile Dental Website
+# Anshchildcare Website
 
-A **fully responsive and modern dental clinic website** built with **Next.js**, **TailwindCSS**, and **shadcn/ui**.
-The site provides an elegant and user-friendly interface for potential patients to learn about the clinic, explore services, and easily book appointments.
+A responsive pediatric and neonatal care website for Anshchildcare and Dr. Kamesh Patel, built with Next.js, Tailwind CSS, and shadcn/ui.
 
 ## 🚀 Features
 
 - **Responsive Design** – Optimized for all devices (mobile, tablet, desktop).
-- **Modern UI** – Built with shadcn/ui and TailwindCSS for a clean and accessible design.
+- **Modern UI** – Built with shadcn/ui and Tailwind CSS for a clean and accessible design.
 - **Pages**:
 
   - **Home Page** – Showcases the clinic’s main highlights.
   - **About Page** – Provides details about the clinic and its mission.
-  - **Services Page** – Lists dental treatments with a clear, organized layout.
+   - **Services Page** – Lists pediatric, neonatal, vaccination, and family wellness services.
   - **Contact Page** – Includes a contact form and clinic information.
 
 - **Navigation** – Sticky, responsive navbar for smooth navigation.
@@ -25,18 +24,18 @@ The site provides an elegant and user-friendly interface for potential patients 
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-/app
-  ├── about/
-  ├── services/
-  ├── contact/
-  ├── page.tsx        # Home Page
-/components
-  ├── Header.tsx      # Navbar
-  ├── Footer.tsx
-  ├── ui/             # shadcn components
+src/app/
+   ├── about/
+   ├── services/
+   ├── contact/
+   ├── page.jsx        # Home page
+src/components/
+   ├── Header.jsx      # Navbar
+   ├── Footer.jsx
+   ├── ui/             # Shared UI components
 ```
 
 ## 📦 Installation & Setup
@@ -44,8 +43,8 @@ The site provides an elegant and user-friendly interface for potential patients 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/pawantech12/brightsmile-dental-website.git
-   cd brightsmile-dental-website
+   git clone https://github.com/parth5924/my-node-website.git
+   cd my-node-website
    ```
 
 2. **Install dependencies**
@@ -65,13 +64,31 @@ The site provides an elegant and user-friendly interface for potential patients 
 
 ## 🌐 Deployment
 
-This project can be easily deployed on [Vercel](https://vercel.com/) for optimal performance.
+### Deploy with GitHub and Render
 
-## 📞 Contact
+1. Commit and push the project to the GitHub repository:
+
+   ```bash
+   git add .
+   git commit -m "Prepare Anshchildcare site for deployment"
+   git push origin main
+   ```
+
+2. Sign in to [Render](https://render.com/) and choose **New > Web Service**.
+3. Connect the GitHub repository `parth5924/my-node-website`.
+4. Render can use the included `render.yaml`, or enter these settings manually:
+   - **Build Command:** `pnpm install --frozen-lockfile && pnpm run build`
+   - **Start Command:** `pnpm start`
+   - **Environment:** `Node`
+   - **Plan:** `Free`
+5. Click **Create Web Service**. Render will build and publish the site with a public `.onrender.com` URL.
+
+The site does not require environment variables for its current static content.
+
+## Contact
 
 If you’d like a similar modern, responsive website for your clinic or business, feel free to connect:
 
-- **Name**: Pawan Kumavat
-- **Email**: [pawankumavat042@gmail.com](mailto:pawankumavat042@gmail.com)
-- **GitHub**: [pawantech12](https://github.com/pawantech12)
-- **Portfolio**: [pawankumavat](https://pawan-kumavat.vercel.app/)
+- **Clinic**: Anshchildcare
+- **Doctor**: Dr. Kamesh Patel
+- **Phone**: [+91 82006 35101](tel:+918200635101)
