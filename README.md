@@ -89,6 +89,3 @@ The site does not require environment variables for its current static content.
 
 If you’d like a similar modern, responsive website for your clinic or business, feel free to connect:
 
-- **Clinic**: Anshchildcare
-- **Doctor**: Dr. Kamesh Patel
-- **Phone**: [+91 82006 35101](tel:+918200635101)
