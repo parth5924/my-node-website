@@ -6,8 +6,7 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const logoUrl =
-    "https://scontent-bom5-2.cdninstagram.com/v/t51.82787-19/552971430_17842265736587626_7114327637964217142_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=100&ccb=7-5&_nc_sid=f7ccc5&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy41NjcuQzMifQ%3D%3D&_nc_ohc=iQB5RMiuHz4Q7kNvwE3nT1c&_nc_oc=AdoZIgRhzAxzZV55w-nUJObikx4_OyKd1hlWNr7j0xp-C3I0PBIOL5d-rjwHeLAn1EI&_nc_zt=24&_nc_ht=scontent-bom5-2.cdninstagram.com&_nc_gid=Hf1lLVBaAwSWrA8zRD7DDw&_nc_ss=79689&oh=00_AQKEu7x4w1cHHTrq2ChKE9HCYOUUqX-Mk_vYi8cub_P1OQ&oe=6AAF25FA";
+  const logoUrl = "/images/anshchildcare-logo.png";
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">

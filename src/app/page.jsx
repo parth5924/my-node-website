@@ -139,7 +139,7 @@ export default function Home() {
             <div className="relative">
               <div className="bg-white rounded-2xl shadow-2xl p-3 transform rotate-2 hover:rotate-0 transition-transform duration-500">
                 <div className="relative">
-                  <img src="/images/dr-kamesh-patel.webp" alt="Dr. Kamesh Patel with a child at Ansh Child Care" className="h-80 w-full rounded-xl object-cover" />
+                  <img src="/images/dr-kamesh-patel.png" alt="Dr. Kamesh Patel at Ansh Child Care" className="h-80 w-full rounded-xl object-cover" />
                   <span className="absolute bottom-4 left-4 rounded-full bg-white/95 px-4 py-2 text-sm font-semibold text-gray-900 shadow-lg">Dr. Kamesh Patel</span>
                 </div>
                 <div className="px-3 py-4">

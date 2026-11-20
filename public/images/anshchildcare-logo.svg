@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Anshchildcare logo</title>
+  <rect width="128" height="128" rx="28" fill="#f0f9ff"/>
+  <path d="M64 104C38 91 24 72 24 50c0-15 11-27 26-27 7 0 12 3 14 8 3-5 8-8 14-8 15 0 26 12 26 27 0 22-14 41-40 54Z" fill="#fb7185"/>
+  <path d="M64 91c-14-8-24-19-24-32 0-8 6-15 14-15 5 0 8 2 10 6 2-4 5-6 10-6 8 0 14 7 14 15 0 13-10 24-24 32Z" fill="#fff"/>
+  <path d="M64 78c-7-4-11-9-11-15 0-5 3-8 7-8 2 0 4 1 4 3 1-2 2-3 5-3 4 0 7 3 7 8 0 6-5 11-12 15Z" fill="#38bdf8"/>
+  <circle cx="64" cy="21" r="7" fill="#38bdf8"/>
+</svg>
